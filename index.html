@@ -3,7 +3,127 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Student Projects</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Student Projects</h1>
+    <ul class="card-grid">
+      <li class="project-card" data-index="0">
+        <article class="card-inner">
+          <div class="card-front-0 card-front card-face">
+            <img
+              src="images/python.png"
+              alt="Python Projects"
+              class="project-image"
+            />
+            <h2 class="card-title">Python Projects</h2>
+          </div>
+          <div class="card-back card-face">
+            <h2 class="card-title">Python Projects</h2>
+            <p>Practice core Python syntax, functions, and problem solving.</p>
+          </div>
+        </article>
+      </li>
+      <li class="project-card" data-index="1">
+        <article class="card-inner">
+          <div class="card-front-1 card-front card-face">
+            <img
+              src="images/html.png"
+              alt="Web Design Projects"
+              class="project-image"
+            />
+            <h2 class="card-title">Web Design Projects</h2>
+          </div>
+          <div class="card-back card-face">
+            <h2 class="card-title">Web Design Projects</h2>
+            <p>Build layouts with HTML and CSS using responsive techniques.</p>
+          </div>
+        </article>
+      </li>
+      <li class="project-card" data-index="2">
+        <article class="card-inner">
+          <div class="card-front-2 card-front card-face">
+            <img
+              src="images/js.png"
+              alt="JavaScript Projects"
+              class="project-image"
+            />
+            <h2 class="card-title">JavaScript Projects</h2>
+          </div>
+          <div class="card-back card-face">
+            <h2 class="card-title">JavaScript Projects</h2>
+            <p>Create interactive behavior with events, arrays, and objects.</p>
+          </div>
+        </article>
+      </li>
+      <li class="project-card" data-index="3">
+        <article class="card-inner">
+          <div class="card-front-3 card-front card-face">
+            <img
+              src="images/datascience.png"
+              alt="Data Science Projects"
+              class="project-image"
+            />
+            <h2 class="card-title">Data Science Projects</h2>
+          </div>
+          <div class="card-back card-face">
+            <h2 class="card-title">Data Science Projects</h2>
+            <p>
+              Analyze datasets and create visual insights from real-world data.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="project-card" data-index="4">
+        <article class="card-inner">
+          <div class="card-front-4 card-front card-face">
+            <img
+              src="images/machinelearning.png"
+              alt="Machine Learning Projects"
+              class="project-image"
+            />
+            <h2 class="card-title">Machine Learning Projects</h2>
+          </div>
+          <div class="card-back card-face">
+            <h2 class="card-title">Machine Learning Projects</h2>
+            <p>
+              Train simple models and evaluate predictions with Python tools.
+            </p>
+          </div>
+        </article>
+      </li>
+      <li class="project-card" data-index="5">
+        <article class="card-inner">
+          <div class="card-front-5 card-front card-face">
+            <img
+              src="images/ai.png"
+              alt="Artificial Intelligence Projects"
+              class="project-image"
+            />
+            <h2 class="card-title">Artificial Intelligence Projects</h2>
+          </div>
+          <div class="card-back card-face">
+            <h2 class="card-title">Artificial Intelligence Projects</h2>
+            <p>Explore AI concepts like search, reasoning, and automation.</p>
+          </div>
+        </article>
+      </li>
+    </ul>
+
+    <dialog class="modal" aria-labelledby="modal-title">
+      <button
+        class="modal-close"
+        type="button"
+        aria-label="Close dialog"
+      ></button>
+      <h2 id="modal-title" class="modal-title">Project Title</h2>
+      <p class="modal-details">Project details appear here.</p>
+      <a class="modal-link" href="#" target="_blank" rel="noopener noreferrer"
+        >View in GitHub</a
+      >
+    </dialog>
+
+    <script src="modal.js"></script>
+  </body>
 </html>
