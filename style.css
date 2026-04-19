@@ -105,10 +105,6 @@ body {
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
 }
 
-.modal::backdrop {
-  background: rgba(0, 0, 0, 0.5);
-}
-
 .modal-close {
   float: right;
   border: none;
@@ -116,8 +112,4 @@ body {
   font-size: 1.4rem;
   line-height: 1;
   cursor: pointer;
-}
-
-.modal-title {
-  margin-top: 0;
 }
